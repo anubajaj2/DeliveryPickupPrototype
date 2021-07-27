@@ -1,0 +1,42 @@
+<mvc:View controllerName="ks.sz.project1.controller.View3" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" displayBlock="true" xmlns="sap.m">
+
+	<App id="app">
+		<pages>
+			<Page id="page" title="View3" showNavButton="true" navButtonPress="onBack">
+				<!-- <Button text="Back" press="onBack"></Button> -->
+				<l:BlockLayout>
+					<l:BlockLayoutRow>
+						<l:BlockLayoutCell>
+							<VBox>
+								<Title wrapping="true" level="H6" text="Delivery Location" textAlign="Center" titleStyle="H1" class="onBold"></Title>
+								<Title wrapping="true" level="H5" text="1523 Crescent Street" textAlign="Center" class="sapUiMediumMarginTop" titleStyle="H2"></Title>
+								<Title wrapping="true" level="H5" text="Pallets:" textAlign="Center" class="sapUiMediumMarginTop onBold" titleStyle="H2"></Title>
+								<Title wrapping="true" level="H5" text="1 Towells" textAlign="Center" titleStyle="H2"></Title>
+								<Title wrapping="true" level="H5" text="1 Diapers" textAlign="Center" titleStyle="H2"></Title>
+								<Title wrapping="true" level="H5" text="1 Tissues" textAlign="Center" titleStyle="H2"></Title>
+								<Image
+									height="auto"
+									width="100%"
+									
+									src="https://i.stack.imgur.com/HILmr.png"
+								>
+								</Image>
+
+							</VBox>
+						</l:BlockLayoutCell>
+					</l:BlockLayoutRow>
+				</l:BlockLayout>
+			
+				<footer >
+					<OverflowToolbar height="auto">
+						<VBox>
+						<Button  text="On Route" type="Emphasized" width="auto"></Button>
+					
+						<Button text="Delivered" press="onNext" type="Emphasized" width="auto"></Button>
+					</VBox></OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+
+</mvc:View>

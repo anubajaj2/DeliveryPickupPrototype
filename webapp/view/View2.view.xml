@@ -1,0 +1,34 @@
+<mvc:View controllerName="ks.sz.project1.controller.View2" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:l="sap.ui.layout" xmlns="sap.m">
+
+    <App id="app">
+        <pages>
+            <Page id="page" title="View2" showNavButton="true" navButtonPress="onBack">
+
+                <l:BlockLayout>
+                    <l:BlockLayoutRow>
+                        <l:BlockLayoutCell>
+                            <VBox>
+                                <Title wrapping="true" level="H6" text="Pickup Location" textAlign="Center" titleStyle="H1" class="onBold"></Title>
+                                <Title wrapping="true" level="H5" text="1602 Main Street" textAlign="Center" class="sapUiMediumMarginTop" titleStyle="H2"></Title>
+                                <Title wrapping="true" level="H5" text="Pallets:" textAlign="Center" class="sapUiMediumMarginTop onBold" titleStyle="H2"></Title>
+                                <Title wrapping="true" level="H5" text="1 Towells" textAlign="Center" titleStyle="H2"></Title>
+                                <Title wrapping="true" level="H5" text="1 Diapers" textAlign="Center" titleStyle="H2"></Title>
+                                <Title wrapping="true" level="H5" text="1 Tissues" textAlign="Center" titleStyle="H2"></Title>
+                            </VBox>
+                        </l:BlockLayoutCell>
+                    </l:BlockLayoutRow>
+                </l:BlockLayout>
+
+                <footer>
+                    <OverflowToolbar height="auto">
+                        <VBox>
+                            <Button text="Accept Assignment" type="Emphasized" press="onAcceptAss" width="auto"></Button>
+                            <Button text="Conifrm Pickup" type="Emphasized" width="auto"></Button>
+                        </VBox>
+                    </OverflowToolbar>
+                </footer>
+            </Page>
+        </pages>
+    </App>
+
+</mvc:View>

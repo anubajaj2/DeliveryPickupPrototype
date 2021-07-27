@@ -1,0 +1,25 @@
+<mvc:View controllerName="ks.sz.project1.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" displayBlock="true" xmlns:f="sap.f" xmlns="sap.m">
+	<App id="app">
+		<pages>
+			<Page id="page" title="View1">
+				<GenericTile  width="auto"  class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Show my Pickups" subheader="Subtitle" press="onNext" frameType="OneByHalf">
+					<TileContent>
+						<HBox>
+							<Image src="sap-icon://home-share" />
+							<Link text="{local>/link1}" press="onNext" class="LinkSize" />
+						</HBox>
+					</TileContent>
+				</GenericTile>
+				<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Show my Deliveries" subheader="Subtitle" press="onNext0" frameType="OneByHalf">
+					<TileContent>
+
+						<HBox>
+							<Image src="sap-icon://home-share" />
+							<Link text="{local>/link2}" press="onNext0" class="LinkSize" />
+						</HBox>
+					</TileContent>
+				</GenericTile>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
